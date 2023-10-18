@@ -9,8 +9,8 @@ int main(void)
 {
 	char *input = NULL;
 	char *ar[MAX_ARG_SIZE];
-	size_t n = 0, characters_read;
-	int i;
+	size_t n = 0;
+	int characters_read;
 
 	while (1)
 	{

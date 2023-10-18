@@ -64,7 +64,7 @@ int strcmpp(const char *s1, const char *s2)
 
 char *_strcpy(char *dest, char *src)
 {
-	int i, j;
+	int i;
 	char *s = dest;
 
 	i = 0;

@@ -38,10 +38,9 @@ void command_exec(char *str, char *ar[])
 	}
 	else if (pid == 0)
 	{
+		char full_path[256];
 		if (str[0] == '/')
 			execve(ar[0], ar, NULL);
-
-		char full_path[256];
 
 		_strcpy(full_path, "/bin/");
 		_strcat(full_path, ar[0]);
